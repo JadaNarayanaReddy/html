@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <title>LAYOUT FOR CRICBUZZ</title>
+    <style>
+        header,footer
+        {
+            background-color:tomato;
+            color:#ffffff;
+            padding:20px;
+            font-size:35px;
+            text-align:center;
+        }
+        section{
+            height:550px;
+            display:grid;
+            grid-template-columns: 3fr 7fr 2fr;
+        }
+        nav div
+        {
+            border:2px black solid;
+            border-radius:20px;
+            margin-bottom:10px;
+            background-color:blue;
+            color:#ffffff;
+            padding:20px;
+            font-size:25px;
+        }
+        aside
+        {
+            background-color:yellow;
+            color:#ffffff;
+            height:100px;
+            width:200px;
+            margin-top:20px;
+            padding:40px;
+            font-size:20px;
+            text-align:right;
+        }
+        main{
+            text-align:center;
+            font-size:20px;
+        }
+        fig{
+            border:2px black dashed;
+            text-align:center;
+            margin-left:50px;
+            margin-top:300px;
+            height:400px;
+            width:200px;
+            background-color:lightblue;
+            color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>welcome to cricbuzz</div>
+    </header>
+    <section>
+        <nav>
+            <menu>
+                <div><u>Live score</u></div>
+                <div><u>Scorecard</u></div>
+                <div><u>Overs</u></div>
+                <div><u>Squads</u></div>
+                <div><u>Highlights</u></div>
+            </menu>
+        </nav>
+        <main>commentry..
+            Virat kohli hits a six on to the stands
+            <article>go and watch live cricket on jio tv</article> 
+            <fig>
+                cricketer image
+                <figcaption>
+                    <div>VIRAT KOHLI</div>
+                </figcaption>
+            </fig>
+        </main>
+        <aside>adds here...</aside>
+        <dialog open>ask any thing about cricket..</dialog>
+    </section>
+    <footer>
+        @copy:CRICBUZZcopyright;
+    </footer>
+</body>
